@@ -1,0 +1,63 @@
+/*  до всього *  */
+/* * {
+	color: rgb(65, 202, 11);
+} ; */
+/* селектор тегу */
+/* h2 {
+	color: green;
+} */
+
+
+h1 {
+	color:blue;
+}
+.list-footer {
+color:rgb(234, 234, 10);
+}
+
+/* клас */
+.first-main-blok {
+	color: blue;
+}
+/* ID */
+#title-main {
+	color:brown;
+}
+/* селектор атрибуту [class*-"te"] */
+
+[class*="second"] {
+color:rgba(234, 234, 21, 0.982);
+}
+
+div.tritch-main-blok {
+	color: rgb(188, 193, 203);
+}
+.main-list,
+.main-list-additional {
+	color: darkviolet;
+}
+.footer-list li {
+	color: burlywood;
+}
+
+.footer-blok a {
+	color: darkkhaki;
+}
+
+.footer > p {
+	color: red;
+}
+/* шукає всі об'єкти відразу після назви класу , той самий рівень вкладеності */
+.footer-blok-text ~ p {
+	color: yellow;
+}
+/* звернення відразу до наступного селектору після назви класу */
+.footer-blok-text + p {
+	color:pink
+	;
+}
+
+
+
+
+
