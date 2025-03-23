@@ -1,0 +1,51 @@
+@import url("fonts.css");
+
+body {
+	font-family: "KoPubBatang", serif;
+	font-size: 17px;
+}
+.title {
+	font-family: "Carme", sans-serif;
+	font-size: 70px;
+	font-style: oblique;
+	font-weight: 300;
+	text-transform: capitalize;
+	letter-spacing: 6px;
+	/* white-space: inherit; */
+}
+.link {
+	color: rgba(255, 106, 0, 0.5);
+	text-decoration: underline;
+	text-decoration-color:rgb(10, 226, 233);
+	text-decoration-style: wavy;
+}
+
+.header p {
+	text-align:right;
+	text-shadow: 2px 5px 5px #51d60e;
+	line-height: 2.5;
+
+}
+
+.main-section {
+	font-family: "Poppins";
+}
+.main-section h3 {
+	color: #1A1A1A;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.main-section p {
+	color: #808080;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	font-style: normal;
+}
+
+.footer a {
+	color: aqua;
+}
