@@ -1,0 +1,314 @@
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+/* homework */
+
+.container-2 {
+	max-width: 648px;
+	margin: 0 auto;
+	font-family: "Poppins", sant-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #808080;
+}
+
+.container-2 * {
+	margin-bottom: 20px;
+}
+.item {
+	margin-bottom: 14px;
+	padding-left: 35px;
+	background: url("../img/icon.png") 0 0 / 20px no-repeat ;
+	min-height: 20px;
+}
+
+.container-3 {
+	background-color: #343045;
+	background-image: url("../img/Vector7.png"), url("../img/Vector8.png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 10%, 80%;
+	margin-bottom: 50px;
+}
+.about-section {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+}
+.items-content {
+	max-width: 1440px;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 50px 50px;
+	
+}
+.content-text {
+	max-width: 630px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 47px;
+	vertical-align: top;
+}
+.content-text h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.content-text h3 {
+	color: rgba(255, 255, 255, 0.95);
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 42px;
+}
+.content-text p {
+	max-width: 630px;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 28px;
+	line-height: 1.6;
+	font-weight: 400;
+}
+.items-content-img {
+	max-width: 524px;
+   width: 100%;
+	margin-right: 108px;
+   display: inline-block;
+   vertical-align: top;
+   overflow: hidden;
+   border-radius: 45.80% 19.09% 45.80% 19.09% / 43.09% 17.95% 43.09% 17.95%;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.items p {
+	max-width: 630px;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 28px;
+	line-height: 1.6;
+	font-weight: 400;
+}
+.items-content img {
+	max-width: 524px;
+	width: 100%;
+	margin-right: 108px;
+	vertical-align: top;
+	overflow: hidden;
+	border-radius: 45.80% 19.09% 45.80% 19.09% / 43.09% 17.95% 43.09% 17.95%;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button {
+	width: 214px;
+    height: 48px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    color: #343045;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 19px;
+}
+
+.container-4 {
+	background: #302C42;
+	padding: 25px 0;
+}
+.containers {
+	max-width: 1272px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 90px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01)
+}
+.contacts {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+}
+.content {
+	vertical-align: top;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #FFF;
+}
+.content.location {
+	width: 33%;
+	display: inline-block;
+	padding: 49px 0 48px 109px;
+	background-image: url(../img/Location-Icon.png);
+	background-repeat: no-repeat;
+	background-position: 39px center;
+}
+.content.tel {
+	width: 33%;
+	display: inline-block;
+	background-image: url(../img/Vector6.png), url(../img/Phone-Icon.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0 center, 40px center;
+	padding: 56px 0 52px 136px;
+} 
+.content.mail {
+	width: 33%;
+	display: inline-block;
+	background-image: url(../img/Vector6.png), url(../img/Mail-Icon.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0 center, 40px center;
+	padding: 50px 0 52px 139px;
+} 
+.content p {
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blok {
+	background-color: aqua;
+	border: 5px solid #000;
+	/* solid,dotted,dashed,double,transparent-прозора */
+	/* top,right,left,bottom */
+	padding: 20px;
+	border-radius: 20px 10px 10px 20px;
+	margin-bottom: 20px;
+}
+
+.blok-2 {
+	outline: 2px dotted red;
+	border-radius: 20px 10px 10px 20px;
+	/* не впливає ні на що , потрібно для інтерактивності */
+	margin-bottom: 20px;
+	background-position: center;
+	border: 10px dashed rgb(194, 74, 30, 1);
+	background-clip: padding-box;
+}
+
+.blok-3 {
+	/* box-shadow: 5px 5px 10px 5px #000; */
+	/* inset - тінь в середині блоку - внутрішня */
+	margin-bottom: 20px;
+	opacity: 0.3;
+	/* керує прозорістю об'єкту , об'єкт не зникає  */
+	background-color: rgb(255, 205, 239);
+}
+
+.blok-4 {
+	background-image: url("../img/dog.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.circle {
+	background-color: aquamarine;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	visibility: hidden;
+	/* ховає об'єкт , без можливості взаємодії  */
+}
+
+.link {
+	color: yellow;
+	border-bottom: 1px dashed;
+	/* успадковує колір текста */
+	border-color: blue;
+}
+
+.inline {
+	background-color: bisque;
+	/* backround-image- якщо немає вказаної висоти /контенту -фон не буде відображатись
+	repeat ( x/y )
+	position 
+	../- вихід з папки стилів  */
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.inline-blok {
+	background-color: azure;
+}
+
+/* Стрілки на CSS */
+/*
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+.arrow-bottom {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid green;
+}
+*/
+/* 
+.item {
+	margin-bottom: 10px;
+	padding-left: 35px;
+	background: url("../img/check.svg") 0 0 / 25px no-repeat;
+	/* запобіжник */
+	min-height: 25px;
+} */
+
+.exp {
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	background:
+		url("../img/building.jpg") 20% 0 / 200px 200px no-repeat,
+		#7a956b url("../img/building-ready.jpg") 0% 0 / 200px 200px no-repeat;
+}
