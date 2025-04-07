@@ -1,0 +1,217 @@
+.header {
+	padding: 25px 0px;
+	background-color: aqua;
+	text-align: center;
+}
+.blok {
+	padding-top: 61px;
+	padding-bottom: 102px;
+	background-color: #412672;
+	color: #ffffff;
+}
+.blok-information {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 5px;
+}
+.content-blok {
+	font-family: Inter;
+	font-size: 38px;
+	font-style: normal;
+	line-height: 1;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.content-blok > h2 {
+	font-weight: 400;
+}
+.content-blok p {
+	font-weight: 700;
+}
+.blok-cards-wrapper {
+	margin-top: 30px;
+}
+.blok-cards {
+	font-size: 0;
+}
+.card {
+	max-width: 33.33%;
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: top;
+}
+.card-content {
+	background-color: #ffffff;
+	padding: 20px;
+}
+.card-content img {
+	max-width: 347px;
+	width: 100%;
+	margin-bottom: 16px;
+}
+.card-content h3 {
+	color: #000000;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 16px;
+	line-height: 1.22;
+}
+.card-content p {
+	color: #4f4f4f;
+	font-size: 15px;
+	line-height: 1.26;
+	margin-bottom: 16px;
+	min-height: 76px;
+}
+.card-content a {
+	color: #fe3f3f;
+	font-size: 15px;
+	line-height: 1.26;
+}
+.link:hover{
+	color: black;
+}
+.card-content:hover{
+	background-color: #FFBE48;
+}
+.blok-2 {
+	max-width: 1728px;
+	margin: 0 auto;
+	padding: 153px 0 137px;
+}
+.faculty {
+	max-width: 1200px;
+	/* тут я вирахував відступи + ширину зображення і 
+	відняв від зашальної ширини . Чи це рпавильно ? */
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.faculty-content {
+	font-family: "Inter", sans-serif;
+	color:#412672;
+	max-width: 518px;
+}
+.title-content {
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.title-content span {
+	font-weight: 700;
+}
+.paragraph-content {
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	padding: 20px 0px 20px;
+}
+.list-content {
+	color:#4F4F4F;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2.5;
+	}
+
+.content-list::before{
+	content: "";
+	width: 29px;
+	height: 29px;
+	background: url(/img/frame.svg);
+	vertical-align: middle;
+	margin-right: 13px;
+}
+.blok-3 {
+	background-color: aqua;
+	padding: 10px 0;
+}
+.game {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 10px 10px 0;
+}
+.game h3 {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.field {
+	margin-inline: auto;
+	width: 800px;
+}
+.step-01 {
+	width: 40px;
+	height: 40px;
+	background: #19db5a;
+	text-align: center;
+	border-radius: 50px 50px;
+	padding-top: 10px;
+}
+.step-02 {
+	width: 120px;
+	height: 20px;
+	margin-left: 39px;
+	margin-top: -30px;
+	/* visibility: hidden; */
+}
+.step-03 {
+	width: 30px;
+	height: 30px;
+	margin-left: 129px;
+	margin-top: 0px;
+}
+.step-04 {
+	width: 400px;
+	height: 15px;
+	margin-left: 159px;
+	margin-top: -15px;
+}
+.step-05 {
+	width: 20px;
+	height: 245px;
+	margin-left: 559px;
+	margin-top: -15px;
+}
+.step-06 {
+	width: 400px;
+	height: 30px;
+	margin-left: 179px;
+	margin-top: -30px;
+}
+.step-07 {
+	width: 20px;
+	height: 100px;
+	margin-left: 179px;
+	margin-top: -100px;
+}
+.step-08 {
+	width: 59px;
+	height: 20px;
+	margin-left: 120px;
+	margin-top: -100px;
+}
+.step-09 {
+	width: 30px;
+	height: 400px;
+	margin-left: 90px;
+	margin-top: -98px;
+	
+}
+
+[class*="step"]:not(.step-01){
+	visibility: hidden;
+	position: relative;
+	background: #e7f707;
+	text-align: center;
+}
+/* .field>*:hover{
+	visibility: visible;
+} */
+
+.field >:hover, .field>:hover+*{
+	visibility: visible;
+}
